@@ -1017,7 +1017,7 @@ data.hist(figsize=(25,25));
 ```
 
 
-![png](output_10_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_10_0.png)
 
 
 **Drop unrelated columns**
@@ -1060,7 +1060,7 @@ plt.show()
 ```
 
 
-![png](output_15_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_15_0.png)
 
 
 We are going to drop columns with significant missing values. Row(s) in the "id" column that contains NaN will also be dropped because we can't subtitute data in "id" column with alternative data such as median, mean, mode, or else.
@@ -1781,7 +1781,7 @@ decompose_time_series(ts_host_since, title='Number of hosts joining the service 
 ```
 
 
-![png](output_71_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_71_0.png)
 
 
 
@@ -1816,7 +1816,7 @@ plt.show()
 ```
 
 
-![png](output_75_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_75_0.png)
 
 
 
@@ -1834,7 +1834,7 @@ plt.show()
 ```
 
 
-![png](output_76_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_76_0.png)
 
 
 
@@ -1862,7 +1862,7 @@ plt.show()
 ```
 
 
-![png](output_79_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_79_0.png)
 
 
 **Neighborhood**
@@ -1968,11 +1968,11 @@ plt.show()
 ```
 
 
-![png](output_84_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_84_0.png)
 
 
 
-![png](output_84_1.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_84_1.png)
 
 
 **Boolean Features**
@@ -2012,7 +2012,7 @@ print(data.host_is_superhost.value_counts(normalize=True))
 ```
 
 
-![png](output_88_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_88_0.png)
 
 
     0    0.862326
@@ -2030,7 +2030,7 @@ print(data.instant_bookable.value_counts(normalize=True))
 ```
 
 
-![png](output_90_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_90_0.png)
 
 
     0    0.681388
@@ -2085,7 +2085,7 @@ multi_collinearity_heatmap(transformed_data, figsize=(20,20))
 ```
 
 
-![png](output_96_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_96_0.png)
 
 
 There seems to be strong relationship between room_type_other with room_type_Private and bedrooms with beds. We will remove one of the two for these two pairs. 
@@ -2109,7 +2109,7 @@ multi_collinearity_heatmap(transformed_data.drop(list(transformed_data.columns[t
 ```
 
 
-![png](output_99_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_99_0.png)
 
 
 **Address Skewed Data**
@@ -2125,7 +2125,7 @@ transformed_data[numerical_columns].hist(figsize=(10,11));
 ```
 
 
-![png](output_102_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_102_0.png)
 
 
 
@@ -2148,7 +2148,7 @@ transformed_data[numerical_columns].hist(figsize=(10,11));
 ```
 
 
-![png](output_104_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_104_0.png)
 
 
 
@@ -2360,7 +2360,7 @@ plt.show()
 ```
 
 
-![png](output_111_0.png)
+![png](https://github.com/waldysetio/price-estimation/blob/main/images/output_111_0.png)
 
 
 **Note: This project is still ongoing. Feature engineering and model development will be improved to increase metrics of the model's quality.**
